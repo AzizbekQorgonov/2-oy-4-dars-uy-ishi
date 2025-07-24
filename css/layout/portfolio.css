@@ -1,0 +1,90 @@
+#portfolio {
+    margin-left: 310px;
+    margin-top: 70px;
+}
+
+#portfolio h1 {
+    font-size: 30px;
+}
+
+.___ {
+    color: rgb(50, 131, 203);
+}
+
+#portfolio p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.all {
+    text-align: center;
+}
+
+.all a {
+    color: rgb(0, 119, 255);
+}
+
+.my-project {
+    max-width: 300px;
+    width: 100%;
+    max-height: 270px;
+    height: 100%;
+
+
+}
+
+.portfolio-projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(233, 233, 251, 0.77);
+}
+
+.portfolio-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.my-project_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(76, 71, 71, 0.426);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.my-project_hover img {
+    margin-top: 50px;
+}
+
+.my-project_hover h3 {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.my-project:hover {
+    transform: translate(1.2);
+
+}
+
+.portfolio-card:hover .my-project_hover {
+    transform: translate(0%);
+    transform: translate(1.2);
+}

@@ -1,0 +1,19 @@
+.btn {
+    color: white;
+    border: 2px solid gold;
+    background-color: rgb(23, 135, 255);
+    padding: 10px 30px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 170px;
+}
+
+.btn:hover {
+    color: rgb(23, 135, 255);
+    background-color: gold;
+    border: 2px solid rgb(23, 135, 255);
+    transition: 0.4s;
+}
